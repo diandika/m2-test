@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+@media (max-width: 575px){
+	.visible-xs {
+		visibility: visible;
+	}
+
+	.col-xs-12 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+	.visible-xs {
+		visibility: visible;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.visible-xs {
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 992px){
+	.visible-xs {
+		visibility: hidden;
+	}
+}
+
+.navbar{
+	padding: 0;
+	background: #dddddd;
+}
+
+nav button.navbar-toggle {
+	float: right;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+h1.page-title {
+	margin: 10px auto 50px;
+}
+
+div.container {
+	margin: auto;
+}
+
+.menu-container {
+	margin: 0 auto 20px;
+	background: #dcdcdc;
+}
