@@ -43,8 +43,21 @@ nav button.navbar-toggle {
 	float: right;
 }
 
+ul#nav-list{
+	background: #eaeaea;
+}
+
+
+a.nav-link, a.nav-link:hover{
+	color: black;
+	text-decoration: none;
+	border-top: 1px solid #232323;
+	text-align: center;
+}
+
 h1.page-header {
 	margin: 10px auto 50px;
+	padding-top: 70px;
 }
 
 div.container {
