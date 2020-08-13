@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+.header-container{
+	border-bottom: 2px solid black;
+}
+
 @media (max-width: 575px){
 	.visible-xs {
 		visibility: visible;
@@ -39,11 +43,7 @@ nav button.navbar-toggle {
 	float: right;
 }
 
-h1, h2{
-	text-align: center;
-}
-
-h1.page-title {
+h1.page-header {
 	margin: 10px auto 50px;
 }
 
@@ -54,4 +54,5 @@ div.container {
 .menu-container {
 	margin: 0 auto 20px;
 	background: #dcdcdc;
+	border: 1px solid #010101;
 }
